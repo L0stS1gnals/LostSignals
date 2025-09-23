@@ -1,13 +1,3 @@
-# -----------------------------------------------
-# Program: Number Analyzer
-# Description: This program takes an integer input
-# from the user and determines:
-#   1. Whether it's even or odd
-#   2. Whether it's positive, negative, or zero
-#   3. Its square
-#   4. Its cube
-# -----------------------------------------------
-
 def check_even_odd(num: int) -> str:
     """
     Determine if a number is even or odd.
@@ -17,8 +7,6 @@ def check_even_odd(num: int) -> str:
         return "Even"
     else:
         return "Odd"
-
-
 def check_sign(num: int) -> str:
     """
     Determine the sign of a number.
@@ -30,24 +18,18 @@ def check_sign(num: int) -> str:
         return "Negative"
     else:
         return "Zero"
-
-
 def find_square(num: int) -> int:
     """
     Calculate the square of a number.
     """
     # Square means multiplying the number by itself
     return num ** 2
-
-
 def find_cube(num: int) -> int:
     """
     Calculate the cube of a number.
     """
     # Cube means multiplying the number three times
     return num ** 3
-
-
 def main():
     """
     Main function.
